@@ -1,0 +1,23 @@
+[
+  {
+    "objectID": "slides/slides.html#introduction",
+    "href": "slides/slides.html#introduction",
+    "title": "Lab Slides",
+    "section": "Introduction",
+    "text": "Introduction\nWelcome to my lab presentation.\nThis slide demonstrates Reveal.js in Quarto."
+  },
+  {
+    "objectID": "slides/slides.html#images-and-citation",
+    "href": "slides/slides.html#images-and-citation",
+    "title": "Lab Slides",
+    "section": "Images and Citation",
+    "text": "Images and Citation\nHere is an image:\n\n\n\nPlot Example\n\n\nAnother image:\n\n\n\nAnother Plot\n\n\nCited work: (Gelman et al. 1995)"
+  },
+  {
+    "objectID": "slides/slides.html#summary",
+    "href": "slides/slides.html#summary",
+    "title": "Lab Slides",
+    "section": "Summary",
+    "text": "Summary\n\nQuarto integrates text and code\n\nReveal.js creates presentations\n\nCitations work with BibTeX\n\n\n\nCode\n# This code cell will be foldable in reveal.js\n\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nx = np.linspace(0, 10, 200)\ny = np.cos(x)\n\nplt.figure(figsize=(6,4))\nplt.plot(x, y, label=\"cos(x)\")\nplt.title(\"Cosine Function\")\nplt.legend()\nplt.show()\n\n\n\n\n\n\n\nGelman, Andrew, John B Carlin, Hal S Stern, and Donald B Rubin. 1995. Bayesian Data Analysis. Chapman; Hall/CRC."
+  }
+]

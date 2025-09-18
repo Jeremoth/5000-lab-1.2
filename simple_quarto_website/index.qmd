@@ -1,0 +1,57 @@
+---
+title: "Home"
+toc: true
+---
+
+# Welcome to the Lab Website (H1)
+
+This is a demonstration site to showcase various Quarto features.  
+Here is an inline math equation: $E[X] = \mu$ [^1].
+
+::: columns
+::: column
+## Section One (H2)
+
+- First bullet point with explanation  
+- Second bullet point with **bold text**  
+- Third bullet point with a citation [@gelman1995bayesian]
+
+> “Data science is about building bridges between data and insight.”
+
+:::
+::: column
+### Subsection (H3)
+
+Here is an example markdown table:
+
+| Metric | Value |
+|-------:|:------|
+| MAE    | 1.23  |
+| RMSE   | 2.34  |
+
+And here is a block equation:
+
+$$
+\arg\min_{\theta} \sum_{i=1}^{n}\left(y_i - \hat{y}_i(\theta)\right)^2
+$$
+
+:::
+:::
+
+## Images
+
+![Image 1](images/example-1.png){fig-alt="Example Image 1"}  
+![Image 2](images/example-2.png){fig-alt="Example Image 2"}
+
+## Embedded Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/2lAe1cqCOXo" frameborder="0" allowfullscreen></iframe>
+
+## Mermaid Diagram
+
+```mermaid
+flowchart TD
+  A[Data] --> B[Clean]
+  B --> C[Model]
+  C --> D[Evaluate]
+  D -->|Iterate| B
